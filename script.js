@@ -19,5 +19,7 @@ function check () {
     document.getElementbyId('para').innerHTML = 'Time to go to work!'
   } else if ((day !== 'Saturday' && day !== 'Sunday') && (age > 0 && age < 18)) {
     document.getElementById('para').innerHTML = 'Time for school!'
+  } else {
+    document.getElementById('para').innerTML = 'Time to relax for the weekend!'
   }
 }
