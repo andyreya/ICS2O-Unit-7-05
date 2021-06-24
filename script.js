@@ -1,7 +1,7 @@
 // creates variables
 
-let age = 0 
-let day = "Monday"
+let age = 0
+let day = 'Monday'
 
 // makes action occur when button is clicked
 
