@@ -15,11 +15,11 @@ function check () {
 
   day = document.getElementById('input2').value
 
-  if ((day !== 'Saturday' && day !== 'Sunday') && (age = 18 || age > 18)) {
-    document.getElementbyId('para').innerHTML = 'Time to go to work!'
-  } else if ((day !== 'Saturday' && day !== 'Sunday') && (age > 0 && age < 18)) {
+  if ((day !== 'Saturday' && day !== 'Sunday') && (age >= 18)) {
+    document.getElementById('para').innerHTML = 'Time to go to work!'
+  } else if ((day !== 'Saturday' && day !== 'Sunday') && (age < 18)) {
     document.getElementById('para').innerHTML = 'Time for school!'
   } else {
-    document.getElementById('para').innerTML = 'Time to relax for the weekend!'
+    document.getElementById('para').innerHTML = 'Time to relax for the weekend!'
   }
 }
